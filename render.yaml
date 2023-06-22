@@ -99,6 +99,8 @@ services:
 databases:
   - name: automatisch-database
     databaseName: automatisch
+    plan: free
+
 envVarGroups:
   - name: common-env-vars
     envVars:
